@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Tapa Mobility</string>
+	<string>Tapa Employee</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -28,14 +28,24 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>This app needs camera access to scan QR codes</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app requires location access to track vehicles and guide you to their locations</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app requires location access in the background to track vehicles</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app requires location access to help you find vehicles nearby</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>This app needs microphone access to record audio notes</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This app needs photos access to upload vehicle damage images</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen.storyboard</string>
+	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UISupportedInterfaceOrientations</key>
